@@ -1,4 +1,4 @@
-Coursera cleaning smartwatch data assignment
+Coursera cleaning fitness data assignment
 
 The original documentation about the Samsung smartphone project is available from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
