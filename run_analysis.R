@@ -128,7 +128,7 @@
                 summarize_all(funs(mean))
         
         # Write output file
-        write.table(tidydataset, file="tidyataset.txt", row.names = FALSE)
+        write.table(tidydataset, file="tidydataset.txt", row.names = FALSE)
 
 print ("Objective 5 Completed - Please view tidydataset.txt for the results")
 
