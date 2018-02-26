@@ -57,13 +57,13 @@ datadir is assigned to the "./data/" folder to be able to read the files
         
 Data files are read into R using read.table and each of the test and training results are combined
         
-subjects equals subject_test.txt and subject_train.txt
-activity equals y_test.txt and y_train.txt
-data equals X_test and X_train.txt
+- subjects equals subject_test.txt and subject_train.txt
+- activity equals y_test.txt and y_train.txt
+- data equals X_test and X_train.txt
         
 As each dataset is read in and combined the redundant data set is cleared for efficiency in processing the script
 
-features.txt is read in using read.delim command. colClasses was set to NULL and character so only the second column is imported and sep set to "".  There was a single blank entry showing so the was set to NA and then cleared.  We were left with a single vector of data column names (datacolnames)
+features.txt is read in using read.delim command. colClasses was set to NULL and character so only the second column is imported and sep set to "".  If there are any blank entries these are set to NA and then cleared.  We were left with a single vector of data column names (datacolnames)
        
 ##### Objective 1 - Merging the complete data set
 
